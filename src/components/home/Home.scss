@@ -1,0 +1,19 @@
+@use '../../App.scss' as *;
+
+.home {
+  height: 65vh;
+
+  &__footer {
+    height: 30vh;
+    background: linear-gradient(
+      180deg,
+      rgba(98, 3, 250, 0.164) 0%,
+      #0d0122 100%
+    );
+    color: white;
+  }
+}
+
+h1 {
+  font-size: 4.5em;
+}
