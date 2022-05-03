@@ -1,12 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use './assets/variables' as *;
 
 .App {
   text-align: center;
-  background-image: url(./images/portfolio-wolf.jpg);
+  background-image: url(./assets/images/portfolio-wolf.jpg);
 }
 
 @media (prefers-reduced-motion: no-preference) {
