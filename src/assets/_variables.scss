@@ -14,4 +14,17 @@ $project-placeholder-img: url(../assets/images/coming-soon-img.jpg);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  @media only screen and (max-width: 620px) {
+    body {
+      width: 100%;
+    }
+    .contact-a-div {
+      display: grid;
+      grid-template-columns: 1f;
+    }
+    .contact-a {
+      width: 100px;
+      height: 100%;
+    }
+  }
 }

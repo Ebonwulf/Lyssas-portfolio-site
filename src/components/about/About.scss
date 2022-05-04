@@ -3,3 +3,23 @@
 .about-page {
   background-image: $background-image;
 }
+
+div {
+  background: linear-gradient(
+    180deg,
+    rgba(151, 151, 151, 0.26) 0%,
+    rgba(196, 196, 196, 0.26) 100%
+  );
+}
+
+h2 {
+  font-family: $font-headings;
+  color: $heading-color;
+  font-size: 3em;
+}
+p {
+  font-family: $font-texts;
+  font-size: 2.25em;
+  color: $font-color;
+  margin-bottom: 2%;
+}

@@ -1,7 +1,7 @@
 @use '../../assets/variables' as *;
 
 .home {
-  height: 65vh;
+  height: 70vh;
 
   &__footer {
     height: 30vh;
@@ -12,8 +12,19 @@
     );
     color: white;
   }
-}
-
-h1 {
-  font-size: 4.5em;
+  &__footer-heading {
+    font-size: 4.5em;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  &__footer-heading2 {
+    font-family: $font-headings;
+    color: $heading-color;
+    font-size: 4.5em;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+  }
 }
