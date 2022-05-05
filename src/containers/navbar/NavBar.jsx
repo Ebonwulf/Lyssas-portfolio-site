@@ -5,11 +5,7 @@ const NavBar = () => {
   return (
     <>
       <header className='navbar'>
-        <img
-          className='navbar__image'
-          src={'../../assets/images/portfolio-banner-bats.jpg'}
-          alt='Banner bats'
-        />
+        <div className='navbar__image'></div>
         <nav>
           <div className='navbar__links'>Home</div>
           <div className='navbar__links'>About</div>

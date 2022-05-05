@@ -11,6 +11,7 @@
   &__image {
     height: 100%;
     width: 30%;
+    background-image: url(../../assets/images/portfolio-banner-bats.jpg);
   }
 
   &__links {
@@ -24,6 +25,7 @@
     border-radius: 15px;
     background-color: $button-color;
     color: $button-text-color;
+    margin-top: 2%;
   }
   &__links:hover {
     background-color: $font-color;
@@ -35,4 +37,5 @@ nav {
   width: 60%;
   height: 100%;
   margin-left: 30%;
+  display: flex;
 }
