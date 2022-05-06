@@ -2,22 +2,24 @@
 
 .home {
   height: 70vh;
+  background-image: url(../../assets/images/portfolio-wolf.jpg);
 
   &__footer {
-    height: 30vh;
+    height: 25vh;
     background: linear-gradient(
       180deg,
-      rgba(98, 3, 250, 0.164) 0%,
-      #0d0122 100%
+      #0d0122 0%,
+      rgba(98, 3, 250, 0.603) 100%
     );
-    color: white;
   }
   &__footer-heading {
     font-size: 4.5em;
     display: flex;
     align-items: center;
     padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 20px;
+    font-family: $font-headings;
+    color: $heading-color;
   }
   &__footer-heading2 {
     font-family: $font-headings;

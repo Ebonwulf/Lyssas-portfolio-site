@@ -1,1 +1,43 @@
 @use '../../assets/variables' as *;
+
+.contacts-page {
+  background-image: $background-image;
+  margin: 0;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  &__container {
+    div {
+      background: linear-gradient(
+        180deg,
+        rgba(151, 151, 151, 0.26) 0%,
+        rgba(196, 196, 196, 0.26) 100%
+      );
+    }
+  }
+
+  &__links {
+    color: $font-color;
+    border-radius: 20px;
+    margin: 2%;
+    width: 30%;
+    height: 70%;
+  }
+  &__links:hover {
+    background-color: $button-text-color;
+  }
+
+  &__para {
+    text-align: left;
+    font-size: 1.75em;
+  }
+}
+
+h1 {
+  font-family: $font-headings;
+  color: $heading-color;
+  text-align: center;
+  font-size: 4.5em;
+}
