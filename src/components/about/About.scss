@@ -8,14 +8,15 @@
     text-align: center;
     font-size: 4.5em;
   }
-}
-
-div {
-  background: linear-gradient(
-    180deg,
-    rgba(151, 151, 151, 0.26) 0%,
-    rgba(196, 196, 196, 0.26) 100%
-  );
+  &__text-box {
+    background: linear-gradient(
+      180deg,
+      rgba(151, 151, 151, 0.26) 0%,
+      rgba(196, 196, 196, 0.26) 100%
+    );
+    margin: 2% 25%;
+    height: 95vh;
+  }
 }
 
 h2 {

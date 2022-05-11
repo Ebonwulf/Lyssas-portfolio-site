@@ -2,7 +2,7 @@
 
 .home {
   height: 70vh;
-  background-image: url(../../assets/images/portfolio-wolf.jpg);
+  background-image: $wolf-background;
 
   &__footer {
     height: 25vh;

@@ -8,7 +8,7 @@ const About = () => {
       <NavBar />
       <main className='about-page__main'>
         <h1 className='about-page__heading'>All about me</h1>
-        <div>
+        <div className='about-page__text-box'>
           <h2>General Knowledge</h2>
           <p>
             I'm a hard working person and I am always eager for a challenge. I
@@ -21,7 +21,7 @@ const About = () => {
           <p>
             I am currently part of a full-time, 12-week Software Development
             program at _nology, gaining hands-on experience in: JavaScript
-            (ES6), React, figma, SCSS, HTML, and more. I have also studied
+            (ES6), React, figma, SCSS, HTML, Java and more. I have also studied
             several Udemy online courses including: 2D game development using C#
             with unity, compTia A+ and Python.
           </p>
