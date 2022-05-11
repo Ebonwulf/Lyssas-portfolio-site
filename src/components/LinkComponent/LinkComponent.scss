@@ -1,0 +1,19 @@
+@use '../../assets/variables' as *;
+
+.linkComponent {
+  height: 60%;
+  width: 20%;
+  margin: 0% 4%;
+  font-size: 2.25em;
+  text-decoration: none;
+  text-align: center;
+  font-family: $font-texts;
+  border-radius: 15px;
+  background-color: $button-color;
+  color: $button-text-color;
+  margin-top: 2%;
+}
+.linkComponent:hover {
+  background-color: $font-color;
+  cursor: pointer;
+}

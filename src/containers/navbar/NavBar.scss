@@ -11,25 +11,7 @@
   &__image {
     height: 100%;
     width: 30%;
-    background-image: url(../../assets/images/portfolio-banner-bats.jpg);
-  }
-
-  &__links {
-    height: 60%;
-    width: 20%;
-    margin: 0% 4%;
-    font-size: 2.25em;
-    text-decoration: none;
-    text-align: center;
-    font-family: $font-texts;
-    border-radius: 15px;
-    background-color: $button-color;
-    color: $button-text-color;
-    margin-top: 2%;
-  }
-  &__links:hover {
-    background-color: $font-color;
-    cursor: pointer;
+    background-image: $banner-image;
   }
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import LinkComponent from '../../components/LinkComponent/LinkComponent';
 import './NavBar.scss';
 
 const NavBar = () => {
@@ -7,10 +8,10 @@ const NavBar = () => {
       <header className='navbar'>
         <div className='navbar__image'></div>
         <nav>
-          <div className='navbar__links'>Home</div>
-          <div className='navbar__links'>About</div>
-          <div className='navbar__links'>Projects</div>
-          <div className='navbar__links'>Contact</div>
+          <LinkComponent linkText={'Home'} />
+          <LinkComponent linkText={'About'} />
+          <LinkComponent linkText={'Projects'} />
+          <LinkComponent linkText={'Contact'} />
         </nav>
       </header>
     </>
