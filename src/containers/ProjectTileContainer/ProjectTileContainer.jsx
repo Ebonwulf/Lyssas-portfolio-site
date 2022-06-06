@@ -2,12 +2,18 @@ import React from 'react';
 import './ProjectTileContainer.scss';
 import ProjectTiles from '../../components/ProjectTiles/ProjectTiles';
 
-const ProjectTileContainer = () => {
-  return (
-    <div>
-      <ProjectTiles projectImg={image} projectName={name} projectText={text} />
-    </div>
-  );
+const ProjectTileContainer = ({ projectData }) => {
+  const projectTileContainerJsx = projectData.map((card) => {
+    return (
+      <ProjectTiles
+        projectImg={card.image}
+        projectName={card.name}
+        projectText={card.text}
+      />
+    );
+  });
+
+  return <div>{projectTileContainerJsx}</div>;
 };
 
 export default ProjectTileContainer;
