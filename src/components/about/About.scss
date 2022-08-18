@@ -2,6 +2,7 @@
 
 .about-page {
   background-image: $background-image;
+  background-size: cover;
   &__heading {
     font-family: $font-headings;
     color: $heading-color;

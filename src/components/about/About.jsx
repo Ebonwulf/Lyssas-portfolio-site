@@ -1,11 +1,9 @@
 import React from 'react';
-import NavBar from '../../containers/navbar/NavBar';
 import './About.scss';
 
 const About = () => {
   return (
     <div className='about-page'>
-      <NavBar />
       <main className='about-page__main'>
         <h1 className='about-page__heading'>All about me</h1>
         <div className='about-page__text-box'>

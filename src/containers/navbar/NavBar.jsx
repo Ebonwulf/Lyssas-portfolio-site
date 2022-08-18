@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkComponent from '../../components/LinkComponent/LinkComponent';
+import { Link } from 'react-router-dom';
 import './NavBar.scss';
 
 const NavBar = () => {
@@ -8,10 +8,18 @@ const NavBar = () => {
       <header className='navbar'>
         <div className='navbar__image'></div>
         <nav>
-          <LinkComponent linkText={'Home'} />
-          <LinkComponent linkText={'About'} />
-          <LinkComponent linkText={'Projects'} />
-          <LinkComponent linkText={'Contact'} />
+          <Link className='navbar__item' to={'/'}>
+            Home
+          </Link>
+          <Link className='navbar__item' to={'/about'}>
+            About
+          </Link>
+          <Link className='navbar__item' to={'/projects'}>
+            Projects
+          </Link>
+          <Link className='navbar__item' to={'/contact'}>
+            Contact
+          </Link>
         </nav>
       </header>
     </>
