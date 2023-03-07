@@ -1,9 +1,9 @@
 import './App.scss';
-import Home from './components/home/Home';
+import Home from './Pages/home/Home';
 import NavBar from './containers/navbar/NavBar';
-import About from './components/about/About';
-import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
+import About from './Pages/about/About';
+import Projects from './Pages/projects/Projects';
+import Contact from './Pages/contact/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
