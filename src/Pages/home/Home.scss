@@ -1,15 +1,15 @@
 @use '../../assets/variables' as *;
 
 .home {
-  height: 70vh;
+  height: 65vh;
   background-image: $wolf-background;
 
   &__footer {
     height: 25vh;
     background: linear-gradient(
       180deg,
-      #0d0122 0%,
-      rgba(98, 3, 250, 0.603) 100%
+      rgba(98, 3, 250, 0.603) 0%,
+      #0d0122 100%
     );
   }
   &__footer-heading {

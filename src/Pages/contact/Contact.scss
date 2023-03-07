@@ -6,6 +6,10 @@
   height: 90vh;
   background-size: cover;
 
+  &__main {
+    padding-top: 5rem;
+  }
+
   &__container {
     div {
       background: linear-gradient(
