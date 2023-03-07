@@ -1,6 +1,6 @@
 import './App.scss';
 import Home from './Pages/home/Home';
-import NavBar from './containers/navbar/NavBar';
+import NavBar from './components/navbar/NavBar';
 import About from './Pages/about/About';
 import Projects from './Pages/projects/Projects';
 import Contact from './Pages/contact/Contact';

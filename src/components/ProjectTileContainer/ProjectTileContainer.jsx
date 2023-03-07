@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectTileContainer.scss';
-import ProjectTiles from '../../components/ProjectTiles/ProjectTiles';
+import ProjectTiles from '../ProjectTiles/ProjectTiles';
 
 const ProjectTileContainer = ({ projectData }) => {
   const projectTileContainerJsx = projectData.map((card) => {

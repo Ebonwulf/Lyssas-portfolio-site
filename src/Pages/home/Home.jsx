@@ -4,11 +4,13 @@ import './Home.scss';
 const Home = () => {
   return (
     <>
-      <main className='home'></main>
-      <footer className='home__footer'>
-        <h1 className='home__footer-heading'>Welcome to</h1>
-        <h1 className='home__footer-heading2'>my portfolio</h1>
-      </footer>
+      <main className='home'>
+        <img src='' alt='Lyssa Corlett' />
+        <div className='home__headingContainer'>
+          <h2 className='home__heading1'>Welcome to </h2>
+          <h2 className='home__heading2'>my portfolio!</h2>
+        </div>
+      </main>
     </>
   );
 };

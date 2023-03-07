@@ -27,14 +27,14 @@
   }
 
   &__links {
-    color: $font-color;
+    color: $secondary-color;
     border-radius: 15px;
     margin: 2%;
     width: 30%;
     height: 70%;
   }
   &__links:hover {
-    background-color: $button-text-color;
+    background-color: $tertiary-color;
   }
 
   &__para {

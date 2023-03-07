@@ -1,32 +1,32 @@
 @use '../../assets/variables' as *;
 
 .home {
-  height: 65vh;
-  background-image: $wolf-background;
+  height: 90vh;
+  background: linear-gradient(180deg, #181818 75%, #5d01d6 100%);
 
-  &__footer {
-    height: 25vh;
-    background: linear-gradient(
-      180deg,
-      rgba(98, 3, 250, 0.603) 0%,
-      #0d0122 100%
-    );
+  &__headingContainer {
+    position: absolute;
+    width: 30%;
+    bottom: 0.5%;
+    left: 65%;
   }
-  &__footer-heading {
+
+  &__heading1 {
     font-size: 4.5em;
     display: flex;
     align-items: center;
-    padding-left: 30px;
-    padding-top: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
     font-family: $font-headings;
     color: $heading-color;
+    margin-top: 0%;
   }
-  &__footer-heading2 {
+  &__heading2 {
     font-family: $font-headings;
     color: $heading-color;
     font-size: 4.5em;
     display: flex;
     align-items: center;
-    padding-left: 8%;
+    margin-left: 25%;
   }
 }

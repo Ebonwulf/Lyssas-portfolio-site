@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
       <header className='navbar'>
-        <div className='navbar__image'></div>
+        <div className='navbar__name'>Lyssa Jean Corlett</div>
         <nav>
           <Link className='navbar__item' to={'/'}>
             Home
