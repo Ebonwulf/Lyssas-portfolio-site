@@ -1,8 +1,7 @@
 @use '../../assets/variables' as *;
 
 .about-page {
-  background-image: $background-image;
-  background-size: cover;
+  background-color: $main-color;
   &__heading {
     font-family: $font-headings;
     color: $heading-color;
@@ -10,11 +9,7 @@
     font-size: 4.5em;
   }
   &__text-box {
-    background: linear-gradient(
-      180deg,
-      rgba(151, 151, 151, 0.26) 0%,
-      rgba(196, 196, 196, 0.26) 100%
-    );
+    background-color: $secondary-color;
     margin: 2% 25%;
     height: 95vh;
   }
@@ -22,14 +17,14 @@
 
 h2 {
   font-family: $font-headings;
-  color: $heading-color;
+  color: $tertiary-color;
   font-size: 3em;
   margin: 1%;
 }
 p {
   font-family: $font-texts;
   font-size: 2.25em;
-  color: $secondary-color;
+  color: $main-color;
   margin-bottom: 2%;
   text-align: center;
   padding: 10px;
